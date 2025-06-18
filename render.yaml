@@ -11,5 +11,5 @@ services:
         sync: false
       - key: 1880737841
         sync: false
-      - key: @Fuisil
+      - key: "@Fuisil"
         sync: false

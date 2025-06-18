@@ -5,10 +5,11 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "uvicorn main:app --host 0.0.0.0 --port 8000"
     envVars:
-      - key: 8083177977:AAHyWRwFyiKlzRx_wjoyK1oZ4znn2Y1PPvo
-        sync: false
-      - key: -1002779274800
-        sync: false
-      - key: 1880737841
-        sync: false
-     
+      - key: BOT_TOKEN
+        value: 8083177977:AAHyWRwFyiKlzRx_wjoyK1oZ4znn2Y1PPvo
+      - key: ADMIN_GROUP_ID
+        value: -1002779274800
+      - key: OWNER_TELEGRAM_ID
+        value: "1880737841"
+      - key: TG_USERNAME
+        value: "@Fuisil"
